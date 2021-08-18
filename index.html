@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snazzy bakers</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body{
+            background-color: antiquewhite;
+           
+           margin-top: 50px;
+        }
+        .h1{
+            background-image: url('img/img1.jpg');
+            text-align: center;
+            color:rgb(26, 9, 9);
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-top: 80px;
+        }
+        a:hover{
+            color:indianred;
+        }
+        .address{
+            background-color: white;
+            padding-top: 50px;
+        }
+        .about{
+            background-color: gainsboro;
+            padding-top: 50px;
+            width: 100%;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .products {
+            background-color: rgb(195, 230, 195);
+            padding-top: 50px;
+        }
+        .form{
+            background-color: peachpuff;
+            padding-top: 50px;
+        }
+        h2{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .about img{
+            margin-left: 80px;
+        }
+        
+      
+        
+    </style>
+</head>
+<body>
+  
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    <a href="" class="navbar-brand"><span class="glyphicon glyphicon-tower" style="color: white;" >ORDER NOW </span></a>
+                    </div>
+                    <div class="collapse navbar-collapse " id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#h1" class="glyphicon glyphicon-home " > HOME</a></li>
+                        <li> <a href="#products" class="glyphicon glyphicon-oil" > PRODUCTS</a></li>
+                        <li> <a href="#register" class="glyphicon glyphicon-off"> REGISTER</a></li>
+                        <li><a href="#contact" class=" glyphicon glyphicon-earphone" > CONTACT</a></li>
+                        <li><a href="#about" class=" glyphicon glyphicon-user"> ABOUT US</a></li>
+                        <li> <a href="#feedback" class="glyphicon glyphicon-envelope"> FEEDBACK</a></li>
+                    </ul>
+                    
+            </div>
+            </div>
+        </div>
+              
+                <div class="h1" id="h1">
+                <h1>SNAZZY HOME BAKERS <span class="fa fa-birthday-cake"></span></h1><br>
+                <h2>WELCOME TO SNAZZY BAKERS</h2><br>
+                <h3><span class="fa fa-cutlery"></span> MADE FRESH FOR YOU</h3>
+                <a href="#" class="btn btn-primary" style="background-color:rgb(70, 22, 22);"><span class="glyphicon glyphicon-off"> SIGNIN</span></a>
+                <hr>
+                </div>
+            
+                <div class="products" id="products">
+                    <hr>
+                <h2 class="text-center"><span class="fa fa-birthday-cake"> PRODUCTS</span></h2>
+                <h3 class="text-center" style="margin-top:50px;"><img src="img/img2.jpg" width="250px"><hr>
+                    <button class="btn btn-success">RS.700</button>CAKES
+                </h3>
+                <h3 class="text-center" style="margin-top:50px;"><img src='img/img3.jpg' width="250px" height="180px"><hr>
+                    <button class="btn btn-success">RS.150</button>COOKIES
+                </h3>
+                <h3 class="text-center" style="margin-top:50px;"><img src='img/img4.jpg' width="250px " height="200px"><hr>
+                    <button class="btn btn-success">RS.200</button> CUP CAKES
+                </h3>
+                <h3 class="text-center" style="margin-top:50px;"><img src='img/img5.jpg' width="250px"><hr>
+                    <button class="btn btn-success">RS.150</button> BANANA LOAF
+                </h3>
+                <h3 class="text-center" style="margin-top:50px;"><img src='img/img6.jpg' width="250px" height="180px"><hr>
+                    <button class="btn btn-success">RS.200</button> DOUGHNUTS
+                </h3>
+                <h3 class="text-center" style="margin-top:50px;"><img src='img/img7.jpg' width="250px"><hr>
+                    <button class="btn btn-success">RS.300</button>CHOCOLATES
+                </h3>
+                <h3 class="text-center" style="margin-top:50px;"><img src='img/img8.jpg' width="250px"><hr>
+                    <button class="btn btn-success">RS.250</button>  MACROONS
+                </h3>
+                </div>
+                <hr>
+                <hr>
+                <div class="form" id="register">
+                    <hr>
+                    <img src="img/img9.jpg" width="500px" height="300px" style="float: left;">
+                <form class="text-center" style="float: -center;">
+                    <h2> <span class="fa fa-registered"> REGISTER</span></h2>
+                    <p ><label for="mail" class="fa fa-envelope-open"> EMAILID</label><br>
+                        <input type="email" name="mail" id="mail">
+                    </p>
+                    <p ><label for="password" class="fa fa-unlock-alt"> PASSWORD</label><br>
+                        <input type="password" name="password" id="password">
+                    </p>
+                    <p ><label for="number" class="fa fa-phone-square"> PHONE NUMBER</label><br>
+                        <input type="number" name="number" id="number">
+                    </p>
+                    <a href="#" class="btn btn-info" >SIGN IN</a>
+                </form>
+                </div>
+                <hr>
+                <hr>
+                <div class="address" id="contact" >
+                    <hr>
+                <h1 class="text-center"><span class="fa fa-user">CONTACT</span></h1>
+                <address >
+                    <h4 class="text-center">
+                        
+                        <span class="fa fa-phone"> PHONE NUMBER:00668 66886</span> <br>
+                        <span class="fa fa-envelope"> GMAIL:snazzybakers@gmail.com</span><br>
+                        <span class="fa fa-address-card"> ADDRESS:45,NORTH STREET</span><br>
+                CHENNAI-25<br>
+                <span class="fa fa-copyright"> @Copyrights2021</span>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.1167538933!2d80.06892500205356!3d13.047487785918504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1629213752365!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+                    </div>
+                    <div class="about " id="about">
+                        <h2 class="text-center"><span class="fa fa-user"> ABOUT US</span></h2>
+                         <h4>SNAZZY BAKERS is a long running famous bakery in CHENNAI, and a favourite with old timers and new people alike. our products range from mouth watering chocolate pastries and cakes to the famous Dehradun rusks, muffins of all sorts, cupcakes and more.
+                             Baking with hearts, come and lookout our buns.</h4><h4 class="text-center text-info" >FRESH CAKE FOR CAKE LUVERS</h4>  
+                             
+                         </p>
+                         <img class="img-responsive img-thumbnail" src="img/img10.jpg" width="400px">
+                          <img class="img-responsive img-thumbnail" src="img/img11.jpg" width="400px"> 
+                           <img class="img-responsive img-thumbnail" src="img/img12.jpg" width="400px"> 
+                             
+                         <hr>
+                     </div>
+                  <div>  <img src='img/img13.jpg' class="img-responsive img-circle"  width="900" style="float: left;"></div>
+                <div class="feedback"id="feedback" style="float: right;">
+                <h3><span class="fa fa-comments"> FEEDBACK DETAILS</span></h3>
+                
+                <p ><label for="name" class="fa fa-user"> NAME</label><br>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p ><label for="mail" class="fa fa-envelope-open"> EMAILID</label><br>
+                    <input type="email" name="mail" id="mail">
+                </p>
+               
+                <p ><label for="comments" class="fa fa-comment"> FEEDBACK</label><br>
+                    <textarea  name="comments" id="comments" cols="30" rows="10"></textarea>
+                    </p>
+                <button class="btn btn-primary fa fa-paper-plane"> SEND</button>
+                </h4>
+                </address>
+                </div>
+            </div>
+        </div>
+        
+    
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
